@@ -12,7 +12,7 @@
 }
 .images > img{
   width: 100%;
-  transition: all 1500ms;
+  transition: all 3000ms;
   position: absolute;
   top: 0;
 }

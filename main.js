@@ -10,6 +10,29 @@ setInterval(() => {
 }, 3000)
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 下面可以不看
+
 function getImage(n) {
   return $(`.images > img:nth-child(${x(n)})`)
 }
@@ -26,7 +49,7 @@ function x(n) {
 
 function 初始化() {
   n = 1
-  $('.images > img:nth-child(${n})').addClass('current')
+  $(`.images > img:nth-child(${n})`).addClass('current')
     .siblings().addClass('enter')
 }
 
